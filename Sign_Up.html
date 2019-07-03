@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC+Playfair+Display+Asap" rel="stylesheet">
+
+	<title>SignUp</title>
+</head>
+<body>
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/signup.js"></script>
+
+<!-- ===================================== Header ===================================== -->
+    <nav class="navbar navbar-light fixed-top bg-dark header">
+      <a href="home.html">
+      	<img class="logo" src="img/logo/logo.jpg">
+      </a>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 bg-dark" type="submit">Search</button>
+      </form>
+    </nav>
+<!-- ===================================== Header ===================================== -->
+
+<!-- ===================================== Sign-Up ===================================== -->
+	<div class="sup-container">
+		<form action="#" method="post">
+			<h1>Sign Up</h1>
+			
+			<div class="sup-form-section">
+				<div class="sup-form-control">
+					<label for="fname">First Name:</label>
+					<input type="text" name="fname" id="fname">
+
+					<label for="lname">Last Name:</label>
+					<input type="text" name="lname" id="lname">
+					
+				</div>
+			</div>
+			
+			<div class="sup-form-section">
+				<div class="sup-form-control">
+					<label for="email">E-mail:</label>
+					<input type="email" name="email" id="email">
+				</div>
+			</div>
+
+			<div class="sup-form-section">
+				<div class="sup-form-control">
+					<label for="uname">Username: </label>
+					<input type="text" name="uname" id="uname" onblur="validUName()">
+
+					<p class="sup-error" id="erruname">
+						Please enter Username!!!
+					</p>
+				</div>
+			</div>
+
+			<div class="sup-form-section">
+				<div class="sup-form-control">
+					<label for="pwd">Password: </label>
+					<input type="password" name="pwd" id="pwd">
+				</div>
+			</div>
+
+			<div class="sup-form-section">
+				<div class="sup-form-control">
+					<input type="submit" value="Sign Up">
+				</div>
+			</div>	
+
+			<div class="sup-form-section">
+				<div class="sup-form-control">
+					<p>Have already an account?</p><a href="home.html">Login</a>
+				</div>
+			</div>	
+		</form>
+	</div>
+<!-- ===================================== Sign-Up ===================================== -->
+
+<!-- ===================================== Footer ===================================== -->
+      <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark footer">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link footer-fun mr-sm-0" href="FAQs.html">FAQs</a>
+            <a class="nav-item nav-link footer-fun mr-sm-0" href="About_us.html">About us</a>
+            <a class="nav-item nav-link footer-fun mr-sm-0" href="Contact.html">Contact</a>
+          </div>
+        </div>
+      </nav>
+<!-- ===================================== Footer ===================================== -->
+</body>
+</html>

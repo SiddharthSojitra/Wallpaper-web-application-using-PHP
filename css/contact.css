@@ -1,0 +1,52 @@
+body{
+	background: grey;
+}
+
+.logo{
+	width: 88px;
+}
+
+.contact{
+	background: ;
+	margin-top: 110px;
+	margin-left: 350px;
+	width: 650px;
+	box-shadow: 0 0 0 0.2rem darkgrey;
+}
+
+.img{
+	width: 300px;
+	height: 450px;
+	padding: 10px;
+	border-radius: 6%;
+}
+
+.heading{
+	font-family: serif;
+	padding: 20px;
+}
+
+.inputs{
+	padding: 10px;
+}
+
+ .inputs-{
+ 	width: 310px;
+ }
+
+.footer{
+	font-size: 20px;
+	font-family: Arapey;
+}
+
+.footer-fun:hover{
+	text-shadow: 0px 0px 6px lightgreen;
+}
+
+.send_btn{
+  	width: 80px;
+}
+
+.contact,.send_btn,.inputs-{
+	color: lightgrey;
+}

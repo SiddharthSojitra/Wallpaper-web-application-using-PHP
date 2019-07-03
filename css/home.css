@@ -1,0 +1,122 @@
+body{
+	background: grey;
+}
+
+.backgroundslider{
+    width: 100%;
+    opacity: 1;
+}
+
+.backgroundwallpapers{
+	position: absolute;	
+}
+
+.leftside-table{
+	margin-top: 90px;
+	margin-left: 15px;
+	position: fixed;
+}
+
+.categories-caption{
+	text-align: center;
+	position: all;
+	display: block;
+	bottom: 30px;
+}
+
+.c-img{
+	padding: 5px;
+	border-radius: 10%;
+	width: 120px;
+	height: 103px;
+}
+
+.homeslider-table{
+	position: relative;
+	margin-top: 90px;
+	left: 360px;
+}
+
+.img{
+	border-radius: 5%;
+	width: 345px;
+	height: 250px;
+}
+
+.align-center{
+	align-items: center;
+}
+
+.header{
+
+}
+
+.logo{
+	width: 88px;
+}
+
+.footer{
+	font-size: 20px;
+	font-family: Arapey;
+}
+
+.footer-fun{
+
+}
+
+.footer-fun:hover{
+	/*font-size: 25px;*/
+	/*transition: width 2s, height 2s, transform 2s;*/
+	text-shadow: 0px 0px 6px lightgreen;
+}
+
+.rightside-table{
+	position: fixed;
+	margin-top: 90px;
+	margin-left: 1040px;
+}
+
+ .u-p{
+ 	font-family: Coiny;
+ 	font-size: 18px;
+ 	color: white;
+ 	font-weight: bold;
+ 	/*text-shadow: 1px 1px 2px white;*/
+ }
+
+.signin{
+	font-family: Display;
+	font-size: 25px;
+	font-weight: bold;
+	color: darkgreen;
+	text-shadow: 2px 2px 5px lightgreen;
+}
+
+.wbs-285bw{
+	background-color: black;
+	width: 270px;
+	text-shadow: 0px 0px 2px white;
+}
+
+.w-210{
+	width: 200px;
+}
+
+.r-50{
+	border-radius: 50%;
+}
+
+.yellow{
+	color: yellow;
+}
+
+.white{
+	color: white;
+}
+
+/*
+@media screen and (max-width=500px){
+	.img1{
+		display: none;
+	}
+}*/
